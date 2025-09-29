@@ -4,7 +4,11 @@ Turn a fresh Arch installation into a fully-configured, beautiful, and modern we
 
 Read more at [omarchy.org](https://omarchy.org).
 
+# Fork Info
+Not finished.
+
+---
+
 ## License
 
 Omarchy is released under the [MIT License](https://opensource.org/licenses/MIT).
-
