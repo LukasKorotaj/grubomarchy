@@ -16,6 +16,11 @@ I sometimes need to dual-boot on my laptop with one nvme-slot.
 Follow the official [manual installation guide](https://learn.omacom.io/2/the-omarchy-manual/96/manual-installation). You can ignore the disk configuration, disk encryption and bootloader parts. 
 The guide is correct apart from the last paragraph where Omarchy should prompt for name and e-mail. I had to dig through commits to fix that :).
 
+Instead of curling the omarchy install link use this command:
+```
+curl -fsSL https://raw.githubusercontent.com/LukasKorotaj/grubomarchy/refs/heads/master/boot.sh | bash
+```
+
 ## Drawbacks
 * Master branch was only tested on a VM.
 * Didn't check if btrfs is still required.
