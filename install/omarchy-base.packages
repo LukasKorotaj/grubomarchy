@@ -21,6 +21,7 @@ docker
 docker-buildx
 docker-compose
 dust
+efibootmgr
 evince
 eza
 fastfetch
@@ -32,6 +33,8 @@ ffmpegthumbnailer
 fontconfig
 fzf
 github-cli
+grub
+grub-btrfs
 gnome-calculator
 gnome-keyring
 gnome-themes-extra
@@ -76,6 +79,7 @@ nss-mdns
 nvim
 obs-studio
 obsidian
+os-prober
 omarchy-chromium
 omarchy-lazyvim
 pamixer
@@ -92,6 +96,7 @@ python-terminaltexteffects
 qt5-wayland
 ripgrep
 satty
+sddm
 signal-desktop
 slurp
 spotify
