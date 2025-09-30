@@ -18,6 +18,7 @@
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
+      "active": "󱓻"
       "urgent": "❗",
       "default": "",
        "1": "🔥",
