@@ -11,6 +11,7 @@ bat
 blueberry
 brightnessctl
 btop
+btrfs-assistant
 cargo
 clang
 cups
@@ -52,6 +53,7 @@ imagemagick
 impala
 imv
 inetutils
+inotify-tools
 iwd
 jq
 kvantum-qt5

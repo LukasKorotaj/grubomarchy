@@ -27,6 +27,6 @@ create)
   echo
   ;;
 restore)
-  sudo limine-snapper-restore
+  sudo grub-snapper-restore
   ;;
 esac
