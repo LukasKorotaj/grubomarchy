@@ -3,7 +3,7 @@ if command -v grub-install &>/dev/null; then
 
   # --- mkinitcpio hooks ---
   sudo tee /etc/mkinitcpio.conf.d/omarchy_hooks.conf <<EOF >/dev/null
-HOOKS=(base udev plymouth keyboard autodetect microcode modconf kms keymap consolefont block encrypt filesystems fsck btrfs)
+HOOKS=(base udev plymouth keyboard autodetect microcode modconf kms keymap consolefont block filesystems fsck btrfs)
 EOF
 
   # --- Install required packages ---
@@ -28,7 +28,6 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=3
 GRUB_DISTRIBUTOR="Omarchy"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
-GRUB_CMDLINE_LINUX="cryptdevice=UUID=$(blkid -s UUID -o value $(findmnt -n -o SOURCE /)):cryptroot root=/dev/mapper/cryptroot"
 
 # Graphical console
 GRUB_GFXMODE=auto
@@ -42,7 +41,6 @@ GRUB_DISABLE_OS_PROBER=false
 
 # Theme (Tokyo Night colors approximated)
 GRUB_COLOR_NORMAL="light-cyan/black"
-GRUB_COLOR_HIGHLIGHT="magenta/black"
 EOF
 
   # --- Optional theme directory ---
@@ -52,7 +50,6 @@ title-text: "Omarchy Bootloader"
 desktop-color: "#1a1b26"
 title-color: "#7aa2f7"
 message-color: "#c0caf5"
-highlight-color: "#f7768e"
 EOF
 
   echo 'GRUB_THEME="/boot/grub/themes/omarchy/theme.txt"' | sudo tee -a /etc/default/grub >/dev/null
