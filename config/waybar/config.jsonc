@@ -18,7 +18,7 @@
     "on-click": "activate",
     "format": "{icon}",
     "format-icons": {
-      "active": "󱓻"
+      "active": "󱓻",
       "urgent": "❗",
       "default": "",
        "1": "🔥",
@@ -30,7 +30,7 @@
        "7": "7",
        "8": "",
        "9": "💎",
-       "10": "󰙯",
+       "10": "󰙯"
     },
     "persistent-workspaces": {
       "1": [],
