@@ -1,8 +1,8 @@
 # Omarchy core package list installed via install/packages.sh
 # This file is also used by the ISO builder when determining needs
 
-1password-beta
-1password-cli
+bitwarden
+bitwarden-cli
 alacritty
 asdcontrol-git
 avahi
@@ -22,7 +22,6 @@ docker-buildx
 docker-compose
 dust
 efibootmgr
-evince
 eza
 fastfetch
 fcitx5
@@ -30,6 +29,7 @@ fcitx5-gtk
 fcitx5-qt
 fd
 ffmpegthumbnailer
+firefox
 fontconfig
 fzf
 github-cli
@@ -54,14 +54,12 @@ imv
 inetutils
 iwd
 jq
-kdenlive
 kvantum-qt5
 lazydocker
 lazygit
 less
 libyaml
 libqalculate
-libreoffice
 llvm
 localsend
 luarocks
@@ -80,8 +78,6 @@ nvim
 obs-studio
 obsidian
 os-prober
-omarchy-chromium
-omarchy-lazyvim
 pamixer
 pinta
 playerctl
@@ -110,15 +106,12 @@ tree-sitter-cli
 ttf-cascadia-mono-nerd
 ttf-ia-writer
 ttf-jetbrains-mono-nerd
-typora
-tzupdate
 ufw
 ufw-docker
 unzip
 uwsm
 walker-bin
 waybar
-wf-recorder
 whois
 wireless-regdb
 wiremix
@@ -133,4 +126,7 @@ xmlstarlet
 xournalpp
 yaru-icon-theme
 yay
+yazi
+zathura
+zathura-pdf-mupdf
 zoxide
