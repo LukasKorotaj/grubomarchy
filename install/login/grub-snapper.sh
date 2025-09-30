@@ -43,17 +43,6 @@ GRUB_DISABLE_OS_PROBER=false
 GRUB_COLOR_NORMAL="light-cyan/black"
 EOF
 
-  # --- Optional theme directory ---
-  sudo mkdir -p /boot/grub/themes/omarchy
-  sudo tee /boot/grub/themes/omarchy/theme.txt <<EOF >/dev/null
-title-text: "Omarchy Bootloader"
-desktop-color: "#1a1b26"
-title-color: "#7aa2f7"
-message-color: "#c0caf5"
-EOF
-
-  echo 'GRUB_THEME="/boot/grub/themes/omarchy/theme.txt"' | sudo tee -a /etc/default/grub >/dev/null
-
   # --- Enable grub-btrfs daemon (dynamic snapshot menu updates) ---
   sudo systemctl enable --now grub-btrfsd.service
 
