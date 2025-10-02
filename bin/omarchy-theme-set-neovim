@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Source theme file
+SOURCE_THEME="$HOME/.config/omarchy/current/theme/neovim.txt"
+
+# Destination theme file
+DEST_THEME="$HOME/.config/nvim/lua/config/theme.txt"
+
+# Check if source file exists
+if [ ! -f "$SOURCE_THEME" ]; then
+    echo "Source theme file not found: $SOURCE_THEME"
+    exit 1
+fi
+
+# Overwrite destination with source
+cp "$SOURCE_THEME" "$DEST_THEME"
+
+echo "Neovim theme updated from $SOURCE_THEME"
