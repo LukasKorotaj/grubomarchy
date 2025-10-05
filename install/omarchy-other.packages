@@ -20,9 +20,6 @@ libpulse
 libsass
 libva-intel-driver
 libva-nvidia-driver
-limine
-limine-mkinitcpio-hook
-limine-snapper-sync
 linux
 linux-firmware
 linux-headers
