@@ -7,7 +7,7 @@ Read more at [omarchy.org](https://omarchy.org).
 ---
 
 # Fork Info
-This is a fork of Omarchy that uses GRUB instead of Limine, doesn't require disk encryption and, because of that, uses sddm.
+This is a fork of Omarchy that uses GRUB instead of Limine, doesn't have disk encryption and, because of that, uses sddm. It also supports a flexible disk configuration.
 
 ## Why?
 I sometimes need to dual-boot on my laptop with one nvme-slot.
@@ -22,9 +22,8 @@ curl -fsSL https://raw.githubusercontent.com/LukasKorotaj/grubomarchy/refs/heads
 ```
 
 ## Drawbacks
-* Master branch was only tested on a VM.
-* Didn't check if btrfs is still required.
-* Ugly sddm/GRUB screen because of theme licences, you will have to install those yourself.
+* Ugly sddm screen because of theme licences, you will have to install those yourself.
+* Doesn't support encryption at all.
 
 Apart from that the core Omarchy functionality is there.
 
