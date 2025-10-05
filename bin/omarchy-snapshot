@@ -27,6 +27,7 @@ create)
   echo
   ;;
 restore)
-  sudo grub-snapper-restore
+  echo "Not able to resore like this in grubomarchy. Restore using snapper manually"
+  exit 1
   ;;
 esac
